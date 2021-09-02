@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!-- ejemplo1.xml CJ18011 -->
-<?xml-stylesheet type=”text/css” href=”../css/ejercicio1b.css” ?>
+<?xml-stylesheet type="text/css" href="../css/ejercicio1b.css" ?>
 <fichero>
   <ficha id="1" fechaingreso="1/11/2021">
     <nombre>Antonio</nombre> 
