@@ -1,0 +1,34 @@
+{
+  "fichero": {
+    "ficha": [
+      {
+        "@id": "1",
+        "@fechaingreso": "1/11/2021",
+        "nombre": "Antonio",
+        "apellido": "Barbero",
+        "direccion": "Calle de los Andes, 45"
+      },
+      {
+        "@id": "2",
+        "@fechaingreso": "1/11/2021",
+        "nombre": "Alonso",
+        "apellido": "Jiménez",
+        "telefono": "76535043",
+        "email": "cj18011@ues.edu.sv",
+        "website": "https://github.com/alonsocj"
+      },
+      {
+        "@id": "3",
+        "@fechaingreso": "1/11/2021",
+        "nombre": "Alonso",
+        "apellido": "Jiménez",
+        "telefono": "####-####",
+        "email": "cj18011@ues.edu.sv",
+        "website": "https://github.com/alonsocj",
+        "dui": "#######-#",
+        "isss": "N/A",
+        "afp": "N/A"
+      }
+    ]
+  }
+}

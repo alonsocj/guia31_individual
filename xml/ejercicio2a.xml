@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- EJEMPLO2.XML CJ18011 -->
+<?xml-stylesheet type=”text/css” href=”../css/ejercicio2a.css” ?>
+<pais nombre="El Salvador">
+  <codigodearea>503</codigodearea>
+    
+  <areaterritorial>21.041 km^2</areaterritorial> 
+  <idiomas>
+    <oficial>Español</oficial>
+    <autoctono>Nahuat</autoctono>
+    <segundoidioma>Ingles</segundoidioma>
+    </idiomas>
+  <monedas>
+  <moneda id="1">Dolar</moneda>
+  <moneda id="2">Bitcoin</moneda>
+  </monedas>
+  <departamento id="1" nombre="San Salvador">
+    <cabecera>San Salvador</cabecera>
+    <habitantes>1,700,000</habitantes>
+    <altura>545 MSNM</altura>
+  </departamento>
+  <departamento id="2" nombre="La Libertad">
+    <cabecera>Santa Tecla</cabecera>
+    <habitantes>45,007</habitantes>
+    <altura>30 M</altura>
+    
+    
+  </departamento>
+</pais>

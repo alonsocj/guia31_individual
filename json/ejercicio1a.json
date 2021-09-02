@@ -1,0 +1,22 @@
+{
+  "fichero": {
+    "ficha": [
+      {
+        "nombre": "Antonio",
+        "apellido": "Barbero",
+        "direccion": "Calle de los Andes, 45",
+        "_id": "1",
+        "_fechaingreso": "1/11/2012"
+      },
+      {
+        "nombre": "Alonso",
+        "apellido": "Jiménez",
+        "telefono": "76535043",
+        "email": "cj18011@ues.edu.sv",
+        "website": "https://github.com/alonsocj",
+        "_id": "1",
+        "_fechaingreso": "1/11/2012"
+      }
+    ]
+  }
+}
