@@ -1,5 +1,13 @@
 fichero{
     background: #FF5733;
     color: black;
-    font-size: 1.4rem;
+    font-size: 2rem;
+    width:95%;
+    align-items: center;
+    margin: 2rem auto;
+}
+ficha{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7rem 0 7rem;
 }

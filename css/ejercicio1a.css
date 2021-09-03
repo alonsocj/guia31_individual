@@ -1,10 +1,28 @@
 fichero{
-    background-color: black;
+    background: #FF5733;
+    color: black;
+    font-size: 2rem;
+    width:95%;
+    align-items: center;
+    margin: 2rem auto;
+    flex-basis: calc(50% - 1rem);
 }
-
 ficha{
-    text-align: center;
+    border: 0.1rem lightgoldenrodyellow solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 2rem;
+    margin: 2rem auto;
+    width: 35%;
 }
-nombre{
-    color: white;
+ficha[fechaingreso]::before{
+    content: "Fecha de ingreso : " attr(fechaingreso)" : " attr(fechaingreso);
+    color:blue;
+    font-weight: bold;
+}
+nombre,apellido,telefono,email,website{
+    border: 0.01rem lightgoldenrodyellow solid;
+    width: 100%;
+    text-align: center;
 }

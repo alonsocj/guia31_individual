@@ -1,0 +1,93 @@
+pais{
+    background-color: #d1d1e0;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+pais[nombre]::before{
+    content: "Pais : " attr(nombre);
+    color: #6600ff;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+departamento{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3rem;
+}
+departamento[nombre]::before{
+    content: "Departamento: " attr(nombre);
+    color: #6600ff;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+cabecera::before{
+    content: "Cabecera: ";
+    color: #cc00cc;
+    font-weight: bold;
+}
+habitantes::before{
+    content: "Habitantes: ";
+    color: #cc00cc;
+    font-weight: bold;
+}
+altura::before{
+    content: "Altura: ";
+    color: #cc00cc;
+    font-weight: bold;
+}
+moneda[id]::before{
+    content: "Moneda " attr(id) ": ";
+    color: #cc00cc;
+    font-weight: bold;
+}
+idioma[nombre]::before{
+    content: attr(nombre) ": ";
+    color: #cc00cc;
+    font-weight: bold;
+}
+codigodearea::before{
+    content: "Area: +";
+    color: #cc00cc;
+    font-weight: bold;
+}
+areaterritorial::before{
+    content: "Territorio: ";
+    color: #cc00cc;
+    font-weight: bold;
+}
+idiomas::before{
+    content: "Idiomas";
+    color: #000;
+    font-weight: bold;
+}
+idiomas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+idioma{
+    margin-top: .5rem;
+}
+monedas::before{
+    content: "Monedas de curso legal";
+    color: #000;
+    font-weight: bold;
+    margin-top: .5rem;
+}
+monedas{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+moneda{
+    margin-top:.5rem;
+}
+departamentos{
+    display: flex;
+    justify-content: space-between;
+}

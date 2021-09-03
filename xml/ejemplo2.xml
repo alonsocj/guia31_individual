@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- EJEMPLO2.XML CJ18011 -->
-<?xml-stylesheet type="text/css" href="../css/ejercicio2.css" ?>
+<?xml-stylesheet type="text/css" href="../css/ejemplo2.css" ?>
 <pais nombre="El Salvador">
   <departamento id="1" nombre="San Salvador">
     <cabecera>San Salvador</cabecera>

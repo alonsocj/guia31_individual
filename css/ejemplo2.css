@@ -1,0 +1,41 @@
+pais{
+    background-color: #ccccff;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+pais[nombre]::before{
+    content: "Pais : " attr(nombre);
+    color: #cc00cc;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+departamento{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+departamento[nombre]::before{
+    content: "Departamento: " attr(nombre);
+    color: #cc00cc;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+cabecera::before{
+    content: "Cabecera: ";
+    color: #cc00cc;
+    font-weight: bold;
+}
+habitantes::before{
+    content: "Habitantes: ";
+    color: #cc00cc;
+    font-weight: bold;
+}
+altura::before{
+    content: "Altura: ";
+    color: #cc00cc;
+    font-weight: bold;
+}
